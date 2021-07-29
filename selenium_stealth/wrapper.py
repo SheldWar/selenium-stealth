@@ -3,7 +3,7 @@ from typing import Any
 
 from selenium.webdriver import Chrome as Driver
 
-from utils import execute_cdp_cmd
+from .tools import execute_cdp_cmd
 
 
 def evaluationString(fun: str, *args: Any) -> str:

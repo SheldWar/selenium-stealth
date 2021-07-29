@@ -1,6 +1,6 @@
 from selenium.webdriver import Chrome as Driver
 
-from utils import execute_cdp_cmd
+from .tools import execute_cdp_cmd
 
 
 def user_agent_override(
